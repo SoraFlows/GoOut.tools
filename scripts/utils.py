@@ -2,7 +2,7 @@
 import os
 import requests
 import json
-from urllib.parse import unquote
+from urllib.parse import unquote, urlparse
 
 # 检测文件夹是否存在，不存在则创建
 def check_folder(folder_path:str):
@@ -18,6 +18,16 @@ def check_folder(folder_path:str):
         print(f"文件夹已创建：{folder_path}")
     else:
         print(f"文件夹已存在：{folder_path}")
+
+def decoded_url(url:str)->str:
+    """
+    解码URL。
+    
+    参数:
+    - url: URL地址
+    """
+    return unquote(url)
+                   
 
 def decode_and_download_image(encoded_url:str, save_path:str):
     """
@@ -45,6 +55,20 @@ def decode_and_download_image(encoded_url:str, save_path:str):
             print(f"下载失败，HTTP状态码：{response.status_code}")
     except Exception as e:
         print(f"下载过程中发生错误：{e}")
+
+def extract_domain(url:str)->str:
+    """
+    从URL中提取域名。
+    
+    参数:
+    - url: URL地址
+    """
+    try:
+        parsed_url = urlparse(url)
+        return parsed_url.netloc
+    except Exception as e:
+        print(f"Error parsing URL: {e}")
+        return ""  # 返回一个空字符串或适当的错误处理
 
 def save_json(data:dict, save_path:str):
     """

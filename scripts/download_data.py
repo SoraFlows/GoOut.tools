@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 import sys
 sys.path.append('./')
-from scripts.utils import check_folder,decode_and_download_image,save_json
+from scripts.utils import check_folder,decode_and_download_image, decoded_url, extract_domain,save_json
 
 # 目标网页URL
 url = 'https://chuhai.tools/'
@@ -36,7 +36,7 @@ for div in divs_with_numeric_id:
         href= link['href'] if link['href'] else '无链接'
         description = link.find('h4').text if link.find('h4') else '无描述'
         # image_src = link.find('img')['src'] if link.find('img') else '无图片'
-        url = href.replace("https://", "").replace("http://", "")
+        url = extract_domain(decoded_url(href))
         image_src = 'https://icon.horse/icon/' + url
         # decode_and_download_image(image_src, save_image_path + image_src.split('/')[-1])
         if '免费' in title or '免费' in description:

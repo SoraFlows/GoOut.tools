@@ -9,7 +9,7 @@
                     "title": "smart-excel-ai（免费）",
                     "is_free": true,
                     "description": "Next.js。集成了登录、支付（lemon squeezy）、AI功能",
-                    "image": "https://icon.horse/icon/github.com/weijunext/smart-excel-ai"
+                    "image": "https://icon.horse/icon/github.com"
                 },
                 {
                     "category": "Web 开发模板",
@@ -17,7 +17,7 @@
                     "title": "Opensaas（免费）",
                     "is_free": true,
                     "description": "React + Node.js。集成了登录、支付（stripe）、邮件、AI功能",
-                    "image": "https://icon.horse/icon/github.com/wasp-lang/open-saas/"
+                    "image": "https://icon.horse/icon/github.com"
                 },
                 {
                     "category": "Web 开发模板",
@@ -25,7 +25,7 @@
                     "title": "Shipfast（付费）",
                     "is_free": false,
                     "description": "Next.js。集成了登录、支付（stripe）、邮件、AI功能",
-                    "image": "https://icon.horse/icon/shipfa.st/"
+                    "image": "https://icon.horse/icon/shipfa.st"
                 }
             ]
         },
@@ -38,7 +38,7 @@
                     "title": "Plasmo",
                     "is_free": false,
                     "description": "支持 React、Vue 等多种前端框架",
-                    "image": "https://icon.horse/icon/www.plasmo.com/"
+                    "image": "https://icon.horse/icon/www.plasmo.com"
                 },
                 {
                     "category": "Chrome 插件开发模板",
@@ -46,7 +46,7 @@
                     "title": "wxt.dev",
                     "is_free": false,
                     "description": "支持 Vue、Svelte 等多种前端框架",
-                    "image": "https://icon.horse/icon/wxt.dev/"
+                    "image": "https://icon.horse/icon/wxt.dev"
                 }
             ]
         },
@@ -59,7 +59,7 @@
                     "title": "Next.js",
                     "is_free": false,
                     "description": "基于 React。附属学习教程：Next.js Practice",
-                    "image": "https://icon.horse/icon/nextjs.org/"
+                    "image": "https://icon.horse/icon/nextjs.org"
                 },
                 {
                     "category": "前端",
@@ -67,7 +67,7 @@
                     "title": "Remix",
                     "is_free": false,
                     "description": "基于 React",
-                    "image": "https://icon.horse/icon/remix.run/"
+                    "image": "https://icon.horse/icon/remix.run"
                 },
                 {
                     "category": "前端",
@@ -75,7 +75,7 @@
                     "title": "Nuxt",
                     "is_free": false,
                     "description": "基于 Vue",
-                    "image": "https://icon.horse/icon/nuxt.com/"
+                    "image": "https://icon.horse/icon/nuxt.com"
                 }
             ]
         },
@@ -88,7 +88,7 @@
                     "title": "Nest.js",
                     "is_free": false,
                     "description": "基于 Node.js",
-                    "image": "https://icon.horse/icon/docs.nestjs.com/"
+                    "image": "https://icon.horse/icon/docs.nestjs.com"
                 },
                 {
                     "category": "后端",
@@ -96,7 +96,7 @@
                     "title": "Midway.js",
                     "is_free": false,
                     "description": "基于 Node.js",
-                    "image": "https://icon.horse/icon/midwayjs.org/"
+                    "image": "https://icon.horse/icon/midwayjs.org"
                 }
             ]
         },
@@ -109,7 +109,7 @@
                     "title": "Supabase",
                     "is_free": false,
                     "description": "支持数据库、文件存储、登录鉴权",
-                    "image": "https://icon.horse/icon/supabase.com/"
+                    "image": "https://icon.horse/icon/supabase.com"
                 },
                 {
                     "category": "数据库",
@@ -125,7 +125,7 @@
                     "title": "Mongodb",
                     "is_free": true,
                     "description": "Mongodb 官方提供一个免费数据库",
-                    "image": "https://icon.horse/icon/www.mongodb.com/products/platform/cloud"
+                    "image": "https://icon.horse/icon/www.mongodb.com"
                 }
             ]
         },
@@ -138,7 +138,7 @@
                     "title": "Prisma",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/prisma.io/"
+                    "image": "https://icon.horse/icon/prisma.io"
                 }
             ]
         },
@@ -151,7 +151,7 @@
                     "title": "Tailwind CSS",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/tailwindcss.com/"
+                    "image": "https://icon.horse/icon/tailwindcss.com"
                 },
                 {
                     "category": "样式与UI库",
@@ -159,7 +159,7 @@
                     "title": "Shadcn/ui",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/ui.shadcn.com/"
+                    "image": "https://icon.horse/icon/ui.shadcn.com"
                 }
             ]
         },
@@ -172,7 +172,7 @@
                     "title": "Clerk",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/clerk.com/"
+                    "image": "https://icon.horse/icon/clerk.com"
                 },
                 {
                     "category": "登录鉴权",
@@ -180,7 +180,7 @@
                     "title": "lucia",
                     "is_free": false,
                     "description": "登录鉴权",
-                    "image": "https://icon.horse/icon/github.com/lucia-auth/lucia"
+                    "image": "https://icon.horse/icon/github.com"
                 },
                 {
                     "category": "登录鉴权",
@@ -188,7 +188,7 @@
                     "title": "Next-Auth v4",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/next-auth.js.org/"
+                    "image": "https://icon.horse/icon/next-auth.js.org"
                 },
                 {
                     "category": "登录鉴权",
@@ -196,7 +196,7 @@
                     "title": "Next-Auth v5",
                     "is_free": false,
                     "description": "v5 配置和 v4 不同，请注意区分 [v5 Demo]",
-                    "image": "https://icon.horse/icon/authjs.dev/getting-started/introduction"
+                    "image": "https://icon.horse/icon/authjs.dev"
                 }
             ]
         },
@@ -209,7 +209,7 @@
                     "title": "Lemon Squeezy",
                     "is_free": false,
                     "description": "支持个人香港卡、虚拟卡，国内开发者首选",
-                    "image": "https://icon.horse/icon/www.lemonsqueezy.com/"
+                    "image": "https://icon.horse/icon/www.lemonsqueezy.com"
                 },
                 {
                     "category": "支付",
@@ -217,7 +217,7 @@
                     "title": "Stripe",
                     "is_free": false,
                     "description": "需要企业资质",
-                    "image": "https://icon.horse/icon/stripe.com/"
+                    "image": "https://icon.horse/icon/stripe.com"
                 }
             ]
         },
@@ -230,7 +230,7 @@
                     "title": "Resend",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/resend.com/"
+                    "image": "https://icon.horse/icon/resend.com"
                 },
                 {
                     "category": "邮件",
@@ -238,7 +238,7 @@
                     "title": "Nodemailer",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/github.com/nodemailer/nodemailer"
+                    "image": "https://icon.horse/icon/github.com"
                 },
                 {
                     "category": "邮件",
@@ -246,7 +246,7 @@
                     "title": "React Mail",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/react.email/"
+                    "image": "https://icon.horse/icon/react.email"
                 }
             ]
         },
@@ -259,7 +259,7 @@
                     "title": "Google Analytics",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/analytics.google.com/analytics/web/"
+                    "image": "https://icon.horse/icon/analytics.google.com"
                 },
                 {
                     "category": "网站分析",
@@ -275,7 +275,7 @@
                     "title": "Umami",
                     "is_free": false,
                     "description": "开源可自部署",
-                    "image": "https://icon.horse/icon/umami.is/"
+                    "image": "https://icon.horse/icon/umami.is"
                 }
             ]
         },
@@ -288,7 +288,7 @@
                     "title": "Tawk",
                     "is_free": false,
                     "description": "中国地区可注册",
-                    "image": "https://icon.horse/icon/tawk.to/"
+                    "image": "https://icon.horse/icon/tawk.to"
                 }
             ]
         },
@@ -301,7 +301,7 @@
                     "title": "Vercel",
                     "is_free": false,
                     "description": "首选",
-                    "image": "https://icon.horse/icon/vercel.com/dashboard"
+                    "image": "https://icon.horse/icon/vercel.com"
                 },
                 {
                     "category": "部署与托管",
@@ -309,7 +309,7 @@
                     "title": "Aircode",
                     "is_free": false,
                     "description": "字节跳动出品",
-                    "image": "https://icon.horse/icon/aircode.io/"
+                    "image": "https://icon.horse/icon/aircode.io"
                 },
                 {
                     "category": "部署与托管",
@@ -317,7 +317,7 @@
                     "title": "Zeabur",
                     "is_free": false,
                     "description": "国内出海团队出品",
-                    "image": "https://icon.horse/icon/zeabur.com/"
+                    "image": "https://icon.horse/icon/zeabur.com"
                 },
                 {
                     "category": "部署与托管",
@@ -325,7 +325,7 @@
                     "title": "Railway",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/railway.app/"
+                    "image": "https://icon.horse/icon/railway.app"
                 },
                 {
                     "category": "部署与托管",
@@ -333,7 +333,7 @@
                     "title": "Netlify",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/www.netlify.com/"
+                    "image": "https://icon.horse/icon/www.netlify.com"
                 },
                 {
                     "category": "部署与托管",
@@ -341,7 +341,7 @@
                     "title": "Github Pages",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/pages.github.com/"
+                    "image": "https://icon.horse/icon/pages.github.com"
                 },
                 {
                     "category": "部署与托管",
@@ -349,7 +349,7 @@
                     "title": "Cloudflare Pages",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/developers.cloudflare.com/pages/"
+                    "image": "https://icon.horse/icon/developers.cloudflare.com"
                 }
             ]
         },
@@ -362,7 +362,7 @@
                     "title": "Namesilo",
                     "is_free": false,
                     "description": "自动屏蔽whois",
-                    "image": "https://icon.horse/icon/www.namesilo.com/"
+                    "image": "https://icon.horse/icon/www.namesilo.com"
                 },
                 {
                     "category": "域名购买",
@@ -370,7 +370,7 @@
                     "title": "Namecheap",
                     "is_free": false,
                     "description": "据说比较便宜",
-                    "image": "https://icon.horse/icon/www.namecheap.com/"
+                    "image": "https://icon.horse/icon/www.namecheap.com"
                 },
                 {
                     "category": "域名购买",
@@ -378,7 +378,7 @@
                     "title": "Godaddy",
                     "is_free": false,
                     "description": "狗爹，懂的都懂",
-                    "image": "https://icon.horse/icon/www.godaddy.com/"
+                    "image": "https://icon.horse/icon/www.godaddy.com"
                 },
                 {
                     "category": "域名购买",
@@ -386,7 +386,7 @@
                     "title": "阿里云",
                     "is_free": false,
                     "description": "国内平台，cn域名首选平台",
-                    "image": "https://icon.horse/icon/wanwang.aliyun.com/domain"
+                    "image": "https://icon.horse/icon/wanwang.aliyun.com"
                 },
                 {
                     "category": "域名购买",
@@ -394,7 +394,7 @@
                     "title": "腾讯云",
                     "is_free": false,
                     "description": "国内平台，cn域名首选平台",
-                    "image": "https://icon.horse/icon/cloud.tencent.com/act/pro/domain-sale"
+                    "image": "https://icon.horse/icon/cloud.tencent.com"
                 },
                 {
                     "category": "域名购买",
@@ -402,7 +402,7 @@
                     "title": "字节火山引擎",
                     "is_free": false,
                     "description": "国内平台，cn域名首选平台",
-                    "image": "https://icon.horse/icon/www.volcengine.com/product/domain-service"
+                    "image": "https://icon.horse/icon/www.volcengine.com"
                 },
                 {
                     "category": "域名购买",
@@ -410,7 +410,7 @@
                     "title": "Cloudflare",
                     "is_free": false,
                     "description": "良心平台，就是价格偏高",
-                    "image": "https://icon.horse/icon/cloudflare.com/"
+                    "image": "https://icon.horse/icon/cloudflare.com"
                 }
             ]
         },
@@ -423,7 +423,7 @@
                     "title": "Notion",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/notion.so/"
+                    "image": "https://icon.horse/icon/notion.so"
                 }
             ]
         },
@@ -436,7 +436,7 @@
                     "title": "iconbuddy",
                     "is_free": false,
                     "description": "logo 设计",
-                    "image": "https://icon.horse/icon/iconbuddy.app/logo-maker"
+                    "image": "https://icon.horse/icon/iconbuddy.app"
                 },
                 {
                     "category": "logo",
@@ -444,7 +444,7 @@
                     "title": "iconray",
                     "is_free": false,
                     "description": "logo 设计",
-                    "image": "https://icon.horse/icon/icon.ray.so/"
+                    "image": "https://icon.horse/icon/icon.ray.so"
                 },
                 {
                     "category": "logo",
@@ -452,7 +452,7 @@
                     "title": "icon horse",
                     "is_free": false,
                     "description": "logo 探测",
-                    "image": "https://icon.horse/icon/icon.horse/"
+                    "image": "https://icon.horse/icon/icon.horse"
                 },
                 {
                     "category": "logo",
@@ -460,7 +460,7 @@
                     "title": "favicon generator",
                     "is_free": false,
                     "description": "生成多平台多种类logo(ico、PNG、SVG)",
-                    "image": "https://icon.horse/icon/realfavicongenerator.net/"
+                    "image": "https://icon.horse/icon/realfavicongenerator.net"
                 },
                 {
                     "category": "logo",
@@ -468,7 +468,7 @@
                     "title": "比特虫",
                     "is_free": false,
                     "description": "PNG/JPG 转 ico",
-                    "image": "https://icon.horse/icon/www.bitbug.net/"
+                    "image": "https://icon.horse/icon/www.bitbug.net"
                 }
             ]
         },
@@ -481,7 +481,7 @@
                     "title": "iconbuddy",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/iconbuddy.app/"
+                    "image": "https://icon.horse/icon/iconbuddy.app"
                 },
                 {
                     "category": "图标库",
@@ -489,7 +489,7 @@
                     "title": "fontawesome",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/fontawesome.com/icons"
+                    "image": "https://icon.horse/icon/fontawesome.com"
                 },
                 {
                     "category": "图标库",
@@ -497,7 +497,7 @@
                     "title": "MingCute",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/www.mingcute.com/"
+                    "image": "https://icon.horse/icon/www.mingcute.com"
                 }
             ]
         },
@@ -510,7 +510,7 @@
                     "title": "Tinypng",
                     "is_free": false,
                     "description": "图片压缩",
-                    "image": "https://icon.horse/icon/tinypng.com/"
+                    "image": "https://icon.horse/icon/tinypng.com"
                 },
                 {
                     "category": "图片视频处理工具",
@@ -518,7 +518,7 @@
                     "title": "Tinify",
                     "is_free": false,
                     "description": "图片压缩 - 国内版",
-                    "image": "https://icon.horse/icon/tinify.cn/"
+                    "image": "https://icon.horse/icon/tinify.cn"
                 },
                 {
                     "category": "图片视频处理工具",
@@ -526,7 +526,7 @@
                     "title": "video-to-gif",
                     "is_free": false,
                     "description": "视频转 GIF",
-                    "image": "https://icon.horse/icon/ezgif.com/video-to-gif"
+                    "image": "https://icon.horse/icon/ezgif.com"
                 }
             ]
         },
@@ -539,7 +539,7 @@
                     "title": "focusee",
                     "is_free": false,
                     "description": "",
-                    "image": "https://icon.horse/icon/gemoo.com/focusee/"
+                    "image": "https://icon.horse/icon/gemoo.com"
                 },
                 {
                     "category": "录屏",
@@ -560,7 +560,7 @@
                     "title": "dub",
                     "is_free": true,
                     "description": "免费用户每个月可以创建25个链接",
-                    "image": "https://icon.horse/icon/github.com/dubinc/dub"
+                    "image": "https://icon.horse/icon/github.com"
                 }
             ]
         },
@@ -573,7 +573,7 @@
                     "title": "v0.dev",
                     "is_free": true,
                     "description": "Text to UI, 免费用户有 200 Credits / 每月",
-                    "image": "https://icon.horse/icon/v0.dev/"
+                    "image": "https://icon.horse/icon/v0.dev"
                 },
                 {
                     "category": "原型设计",
@@ -581,7 +581,7 @@
                     "title": "usegalileo",
                     "is_free": true,
                     "description": "Text to UI, 免费用户有 200 Credits",
-                    "image": "https://icon.horse/icon/www.usegalileo.ai/"
+                    "image": "https://icon.horse/icon/www.usegalileo.ai"
                 },
                 {
                     "category": "原型设计",
@@ -589,7 +589,7 @@
                     "title": "vx.dev",
                     "is_free": false,
                     "description": "Text to UI, v0.dev的开源替代品",
-                    "image": "https://icon.horse/icon/github.com/Yuyz0112/vx.dev"
+                    "image": "https://icon.horse/icon/github.com"
                 }
             ]
         }

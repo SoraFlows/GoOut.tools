@@ -3,23 +3,27 @@ import { Tool } from '@/types/ToolData'; // 假设你有这样一个类型定义
 import Image from 'next/image';
 type CardProps = Tool;
 
-const Card: React.FC<CardProps> = ({ name, is_free, image, description, link }) => {
+const Card: React.FC<CardProps> = ({ title, is_free, image, description, href }) => {
     return (
-        <a href={link} target="_blank" rel="noopener noreferrer" 
+        <a href={href} target="_blank" rel="noopener noreferrer" 
         className="relative mb-6 flex min-h-[122px] min-w-0 cursor-pointer 
         flex-col break-words rounded-lg border border-gray-200 p-4 shadow-md transition-all hover:-translate-y-1 
         hover:scale-105 hover:bg-border hover:shadow-lg  xl:mb-0">
             <div className="flex items-center">
                 <div className="mr-3 flex size-10 overflow-hidden rounded-full">
-                    <Image src={image} alt={name} 
+                    <Image src={image} alt={title} 
                     loading='lazy' width={40} height={40} 
                     decoding='async' data-nimg="1"
                     className='object-fill'
+                    style={{
+                        width: "100%",
+                        height: "auto"
+                    }}
                     />
                     
                 </div>
                 
-                <h3 className="text-xl font-bold text-primary">{name}</h3>
+                <h3 className="text-xl font-bold text-primary">{title}</h3>
                 
             </div>
             <div className='flex mt-1 justify-center space-x-4'>

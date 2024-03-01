@@ -40,9 +40,9 @@ for div in divs_with_numeric_id:
         image_src = 'https://icon.horse/icon/' + url
         # decode_and_download_image(image_src, save_image_path + image_src.split('/')[-1])
         if '免费' in title or '免费' in description:
-            is_free = '免费'
+            is_free = True
         else:
-            is_free = '付费'
+            is_free = False
             
         data = {
             'category': category,

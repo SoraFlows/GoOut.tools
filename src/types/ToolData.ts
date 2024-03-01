@@ -1,11 +1,12 @@
 // types/ToolData.ts
 
 export type Tool = {
-    name: string;
+    category: string;
+    title: string;
     is_free: boolean;
     image: string;
     description: string;
-    link: string;
+    href: string;
   };
   
   export type CategoryData = {

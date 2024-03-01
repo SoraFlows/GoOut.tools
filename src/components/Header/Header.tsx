@@ -11,7 +11,8 @@ export const Header = ({
     const langs = lang
     const [hovered, setHovered] = useState(false)
     return (
-        <header className="sticky top-0 z-40 w-full bg-background dark:border-slate-50/[0.06] lg:border-b lg:border-slate-900/10">
+        <header className="sticky top-0 z-40 w-full bg-gray-50 dark:border-slate-50/[0.06] lg:border-b lg:border-slate-900/10">
+            
             <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
                 <div className="flex gap-6 md:gap-10">
                 </div>
@@ -45,7 +46,8 @@ export const Header = ({
                         <a target="_blank" rel="noreferrer" href="https://github.com/weijunext/indie-hacker-tools">
                             <div className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors 
                                                 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 
-                                                disabled:opacity-50 disabled:pointer-events-none ring-offset-background hover:bg-accent 
+                                                disabled:opacity-50 disabled:pointer-events-none ring-offset-background 
+                                                hover:bg-accent 
                                                 hover:text-accent-foreground h-10 w-10">
                                 <svg viewBox="0 0 438.549 438.549" className="size-5">
                                     <path fill="currentColor"

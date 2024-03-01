@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "GoOut | 出海去 | 独立开发者出海工具集合大全",
   description: "独立开发者出海技术栈和工具, 收集的一些有用的出海工具和资源，可以帮助你更好地了解和进入海外市场。",
-  icons: "/next.svg"
+  icons: "/logo.svg"
 };
 
 export default function RootLayout({

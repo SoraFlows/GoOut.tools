@@ -41,9 +41,10 @@ for div in divs_with_numeric_id:
         # decode_and_download_image(image_src, save_image_path + image_src.split('/')[-1])
         if '免费' in title or '免费' in description:
             is_free = True
-        else:
+        elif "付费" in title or "paid" in title or "付费" in description or "paid" in description:
             is_free = False
-            
+        else :
+            is_free = None
         data = {
             'category': category,
             "href": href,

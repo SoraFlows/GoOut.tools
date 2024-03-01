@@ -3,7 +3,7 @@
 export type Tool = {
     category: string;
     title: string;
-    is_free: boolean;
+    is_free: boolean | null | undefined;
     image: string;
     description: string;
     href: string;

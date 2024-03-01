@@ -23,7 +23,7 @@ export default function RootLayout({
       <meta name="baidu-site-verification" content="codeva-dSoeVdJhKG" />
 
         <Script
-          src='https://www.googletagmanager.com/gtag/js?id=G-CCB2RC3FFG'
+          src='https://www.googletagmanager.com/ns.html?id=GTM-WFDDN2XQ'
           strategy='afterInteractive'
         />
         {/* 直接在页面中执行的脚本 */}
@@ -34,7 +34,7 @@ export default function RootLayout({
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
-                    gtag('config', 'G-QYDXN91667');
+                    gtag('config', 'GTM-WFDDN2XQ');
                     `}
         </Script>
         <Script

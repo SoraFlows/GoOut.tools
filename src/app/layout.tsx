@@ -19,6 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Yandex验证 */}
+      <meta name="yandex-verification" content="0d0e0b71c05af6ae" />
       {/* 百度验证 */}
       <meta name="baidu-site-verification" content="codeva-dSoeVdJhKG" />
 

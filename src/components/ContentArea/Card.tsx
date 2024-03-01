@@ -27,9 +27,15 @@ const Card: React.FC<CardProps> = ({ title, is_free, image, description, href })
                 
             </div>
             <div className='flex mt-1 justify-center space-x-4'>
-            <span className={`text-xs font-bold mt-1 px-1 py-1 rounded ${is_free ? 'bg-green-200' : 'bg-red-200'}`}>
-                {is_free ? '免费' : '付费'}
-                 </span>
+            
+                {
+                    typeof is_free === 'boolean' && (
+                        <span className={`text-xs font-bold mt-1 px-1 py-1 rounded ${is_free ? 'bg-green-200' : 'bg-red-200'}`}>
+                            {is_free ? '免费' : '付费'}
+                        </span>
+                    )
+                }
+            
             <h4 className="mt-2 line-clamp-3 text-sm text-primary">{description}</h4>
             </div>
             

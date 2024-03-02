@@ -13,3 +13,7 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+一键在Railway上部署
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/ATKw1L?referralCode=KRIchJ)

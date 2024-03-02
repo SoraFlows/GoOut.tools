@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import { siteConfig } from "@/config/site";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,30 +20,29 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Yandex验证 */}
-      <meta name="yandex-verification" content="0d0e0b71c05af6ae" />
+      {/* Yandex验证 */}
+      <meta name="yandex-verification" content={siteConfig.yandexVerifi} />
       {/* 百度验证 */}
-      <meta name="baidu-site-verification" content="codeva-dSoeVdJhKG" />
-
-        <Script
-          src='https://www.googletagmanager.com/ns.html?id=GTM-WFDDN2XQ'
-          strategy='afterInteractive'
-        />
-        {/* 直接在页面中执行的脚本 */}
-        <Script
-          id='google-analytics'
-          strategy='afterInteractive'>
-          {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'GTM-WFDDN2XQ');
-                    `}
-        </Script>
-        <Script
-          src='https://hm.baidu.com/hm.js?4f821b90b96b98cd3ac1b18a38310037'
-          strategy='afterInteractive'
-        />
+      <meta name="baidu-site-verification" content={siteConfig.baiduVerifi} />
+      <Script
+        src={`https://www.googletagmanager.com/ns.html?id=${siteConfig.googleId}`}
+        strategy='afterInteractive'
+      />
+      {/* 直接在页面中执行的脚本 */}
+      <Script
+        id='google-analytics'
+        strategy='afterInteractive'>
+        {`
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', ${siteConfig.googleId});
+                  `}
+      </Script>
+      <Script
+        src={`https://hm.baidu.com/hm.js?${siteConfig.baiduId}`}
+        strategy='afterInteractive'
+      />
       </head>
       <body className={inter.className}>{children}</body>
     </html>

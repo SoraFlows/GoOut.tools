@@ -25,29 +25,15 @@ export const siteConfig = {
     icons: "/favicon.ico",
     image_url: "/opengraph-image.png", // 放一个叫 opengraph-image.png 的1200x630尺寸的图片到你的 app 目录下即可
     official_image: "/officialWechat.png",
-    generator: "goout.tools", // 想写什么就写什么，也可以不提供
+    generator: "https://goout.tools", // 想写什么就写什么，也可以不提供
     copyright: `&copy; 2024 - ${new Date().getFullYear().toString()} by AmbroseX`,
     mainNav: [],
+    googleId: "G-DQV98M9BYP",
+    baiduId: "4f821b90b96b98cd3ac1b18a38310037",
+
     links: {
         rss: "https://goout.tools/feed.xml",
         twitter: "https://twitter.com/FlytoAGI",
         github: "https://github.com/weijunext/indie-hacker-tools",
     },
-}
-export interface NavLink {
-    /** 站点图标 */
-    icon?: string
-    /** 站点名称 */
-    title: string
-    /** 站点名称 */
-    desc?: string
-    /** 站点链接 */
-    link: string
-    /** 嵌套的导航数据 */
-    items?: NavLink[] // 新增
-}
-
-export interface NavData {
-    title: string
-    items: NavLink[]
 }

@@ -59,7 +59,7 @@ export const Header: React.FC<HeaderProps> = ({
                                     </span>
                                 </div>
                             </a>
-                            <a target="_blank" rel="noreferrer" href="https://github.com/weijunext/indie-hacker-tools">
+                            <a target="_blank" rel="noreferrer" href={siteConfig.links.github_web}>
                                 <div className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors 
                                                 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 
                                                 disabled:opacity-50 disabled:pointer-events-none ring-offset-background 

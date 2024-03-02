@@ -35,6 +35,7 @@ export const siteConfig = {
     links: {
         rss: "https://goout.tools/feed.xml",
         twitter: "https://twitter.com/FlytoAGI",
-        github: "https://github.com/weijunext/indie-hacker-tools",
-    },
+        github_web: "https://github.com/SoraFlows/GoOut.tools",
+        github_collect: "https://github.com/weijunext/indie-hacker-tools",
+    }
 }

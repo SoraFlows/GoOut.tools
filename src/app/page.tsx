@@ -4,10 +4,11 @@ import Image from "next/image";
 
 import React, { useState, useRef, useEffect } from 'react';
 import Sidebar from "@/components/Sidebar/Sidebar";
-import { toolsData } from "@/data/toolsData";
+import { toolsData } from "@/data/tools-data";
 import ContentArea from "@/components/ContentArea/ContentArea";
 import { Header } from "@/components/Header/Header";
 import TopDownButton from "@/components/TopDownButton";
+
 
 export default function Home() {
   // 设置初始活跃分类，这里我们默认设置为数组的第一个分类的名称
@@ -16,12 +17,12 @@ export default function Home() {
   
   useEffect(() => {
     // 监听屏幕宽度变化
-    setIsSidebarOpen(window.innerWidth >= 768);
+    setIsSidebarOpen(window.innerWidth <= 768);
     const handleResize = () => {
       if (window.innerWidth >= 768) { // 以768px为分界点
-        setIsSidebarOpen(true);
-      } else {
         setIsSidebarOpen(false);
+      } else {
+        setIsSidebarOpen(true);
       }
     };
     // 初始化时执行一次检查
@@ -98,7 +99,9 @@ export default function Home() {
                 categories={toolsData}
                 categoryRefs={categoryRefs}
               />
+              
             </div>
+            
           </div>
       </div>
       {/* 两个 Button 组件 */}

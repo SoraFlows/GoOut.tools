@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { siteConfig } from '@/config/site'
 import { FaBars, FaTimes } from 'react-icons/fa';
 // import {FaGithub} from 'react-icons/fa'
 
@@ -23,9 +24,11 @@ export const Header: React.FC<HeaderProps> = ({
     return (
         <header className="sticky top-0 z-40 w-full bg-gray-50 dark:border-slate-50/[0.06] lg:border-b lg:border-slate-900/10">
             <div className='flex items-center'>
-            <button onClick={toggleSidebar} className="z-50 m-5">
-                {isSidebarOpen ? <FaTimes /> : <FaBars />}
-            </button>
+                <div>
+                    <button onClick={toggleSidebar} className="z-50 m-5 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors" aria-label={isSidebarOpen ? "关闭侧边栏" : "打开侧边栏"}>
+                        {isSidebarOpen ? <FaTimes /> : <FaBars />}
+                    </button>
+                </div>
                 <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
                     <div className="flex gap-6 md:gap-10">
                     </div>
@@ -76,7 +79,7 @@ export const Header: React.FC<HeaderProps> = ({
                                     </span>
                                 </div>
                             </a>
-                            <a target="_blank" rel="noreferrer" href="https://twitter.com/FlytoAGI">
+                            <a target="_blank" rel="noreferrer" href={siteConfig.links.twitter}>
                                 <div className="inline-flex items-center justify-center rounded-md text-sm font-medium 
                             transition-colors focus-visible:outline-none focus-visible:ring-2 
                             focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 

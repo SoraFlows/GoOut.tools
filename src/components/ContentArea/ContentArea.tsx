@@ -4,6 +4,7 @@ import { CategoryData } from '@/types/ToolData';
 import CategoryBlock from '@/components/ContentArea/CategoryBlock';
 import Contact from '@/components/Contact';
 import {toolsInfo } from '@/data/tools-data';
+import { siteConfig } from '@/config/site';
 
 const ContentArea: React.FC<{
     categories: CategoryData[];
@@ -34,6 +35,9 @@ const ContentArea: React.FC<{
                             <span className='font-bold p-1'>{toolsInfo.toolsNumber}</span>个工具</li>
                         <li>最后更新时间：{toolsInfo.lastUpdateTime}</li>
                     </ul>
+                    <span className='font-bold p-1'> 
+                    项目开源代码开源在 <a href={siteConfig.github_url} target="_blank" rel="noopener noreferrer">GitHub GoOut.tools</a> 
+                    </span>
                 </h4>
         </div>
         <div className='w-full pb-96 pt-4'>

@@ -102,6 +102,54 @@ def extract_domain(url:str)->str:
         print(f"Error parsing URL: {e}")
         return ""  # 返回一个空字符串或适当的错误处理
 
+# 得到最新的五个文件,其他文件都删除
+def get_latest_files(file_path: str, num: int):
+    """
+    获取指定文件夹下最新的文件。
+    
+    参数:
+    - file_path: 文件夹路径
+    - num: 获取的文件数量
+    """
+    import os
+    # 获取文件夹下所有文件
+    files = [f for f in os.listdir(file_path) if os.path.isfile(os.path.join(file_path, f))]
+    # 检查文件数量是否足够
+    actual_num = min(len(files), num)
+    # 按照修改时间排序
+    files.sort(key=lambda x: os.path.getmtime(os.path.join(file_path, x)), reverse=True)
+    # 获取最新的文件
+    latest_files = files[:actual_num]
+    # 只有当文件数量大于指定数量时才删除其他文件
+    if len(files) >= num:
+        for file in files[num:]:
+            os.remove(os.path.join(file_path, file))
+    return latest_files
+
+def backup_json(data_path:str, back_json_path:str):
+    import time
+    import shutil
+    import os
+    # 获取当前时间
+    save_data = read_json(data_path)
+    
+    current_time = time.strftime('%Y-%m-%d-%H-%M-%S', time.localtime(time.time()))
+    # 将备份数据保存到文件
+    backup_file_path = os.path.join(back_json_path, f"tools-data_backup_{current_time}.json")
+    save_json(save_data, backup_file_path)
+    get_latest_files(back_json_path, 3)
+    print(f"数据备份成功，备份文件为：{backup_file_path}")
+
+def read_json(file_path:str)->dict:
+    """
+    读取JSON文件。
+    
+    参数:
+    - file_path: JSON文件路径
+    """
+    with open(file_path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+    return data
 def save_json(data:dict, save_path:str):
     """
     保存数据到JSON文件。

@@ -55,19 +55,11 @@
             "data": [
                 {
                     "category": "前端",
-                    "href": "https://nextjs.org/",
+                    "href": "https://nextjs.org/)🌟 | 基于 React，附属学习教程：[Next.js Practice](https://nextjs.weijunext.com/",
                     "title": "Next.js",
                     "is_free": null,
-                    "description": "基于 React。附属学习教程：Next.js Practice",
+                    "description": "",
                     "image": "https://icon.horse/icon/nextjs.org"
-                },
-                {
-                    "category": "前端",
-                    "href": "https://remix.run/",
-                    "title": "Remix",
-                    "is_free": null,
-                    "description": "基于 React",
-                    "image": "https://icon.horse/icon/remix.run"
                 },
                 {
                     "category": "前端",
@@ -105,27 +97,27 @@
             "data": [
                 {
                     "category": "数据库",
-                    "href": "https://supabase.com/",
-                    "title": "Supabase",
-                    "is_free": null,
-                    "description": "支持数据库、文件存储、登录鉴权",
-                    "image": "https://icon.horse/icon/supabase.com"
-                },
-                {
-                    "category": "数据库",
-                    "href": "https://console.upstash.com",
-                    "title": "Upstash",
-                    "is_free": null,
-                    "description": "支持 Redis、kafka、向量数据库",
-                    "image": "https://icon.horse/icon/console.upstash.com"
-                },
-                {
-                    "category": "数据库",
                     "href": "https://www.mongodb.com/products/platform/cloud",
                     "title": "Mongodb",
                     "is_free": true,
                     "description": "Mongodb 官方提供一个免费数据库",
                     "image": "https://icon.horse/icon/www.mongodb.com"
+                },
+                {
+                    "category": "数据库",
+                    "href": "https://planetscale.com/pricing",
+                    "title": "planetscale",
+                    "is_free": true,
+                    "description": "MySQL数据库，免费版额度非常慷慨，5GB存储  10亿次读/月  1000万次写/月",
+                    "image": "https://icon.horse/icon/planetscale.com"
+                },
+                {
+                    "category": "数据库",
+                    "href": "https://realm.io/",
+                    "title": "Realm",
+                    "is_free": null,
+                    "description": "SQLite 的快速、可扩展的替代方案",
+                    "image": "https://icon.horse/icon/realm.io"
                 }
             ]
         },
@@ -134,32 +126,44 @@
             "data": [
                 {
                     "category": "ORM",
-                    "href": "https://prisma.io/",
-                    "title": "Prisma",
+                    "href": "https://github.com/typeorm/typeorm",
+                    "title": "TypeORM",
                     "is_free": null,
                     "description": "",
-                    "image": "https://icon.horse/icon/prisma.io"
+                    "image": "https://icon.horse/icon/github.com"
                 }
             ]
         },
         {
             "category": "样式与UI库",
+            "data": []
+        },
+        {
+            "category": "原型设计",
             "data": [
                 {
-                    "category": "样式与UI库",
-                    "href": "https://tailwindcss.com/",
-                    "title": "Tailwind CSS",
-                    "is_free": null,
-                    "description": "",
-                    "image": "https://icon.horse/icon/tailwindcss.com"
+                    "category": "原型设计",
+                    "href": "https://v0.dev/",
+                    "title": "v0",
+                    "is_free": true,
+                    "description": "Text to UI, 免费用户有 200 Credits / 每月",
+                    "image": "https://icon.horse/icon/v0.dev"
                 },
                 {
-                    "category": "样式与UI库",
-                    "href": "https://ui.shadcn.com/",
-                    "title": "Shadcn/ui",
+                    "category": "原型设计",
+                    "href": "https://www.usegalileo.ai/",
+                    "title": "usegalileo",
+                    "is_free": true,
+                    "description": "Text to UI, 免费用户有 200 Credits",
+                    "image": "https://icon.horse/icon/www.usegalileo.ai"
+                },
+                {
+                    "category": "原型设计",
+                    "href": "https://github.com/Yuyz0112/vx.dev",
+                    "title": "vx.dev",
                     "is_free": null,
-                    "description": "",
-                    "image": "https://icon.horse/icon/ui.shadcn.com"
+                    "description": "Text to UI, v0.dev的开源替代品",
+                    "image": "https://icon.horse/icon/github.com"
                 }
             ]
         },
@@ -168,16 +172,16 @@
             "data": [
                 {
                     "category": "登录鉴权",
-                    "href": "https://clerk.com/",
-                    "title": "Clerk",
+                    "href": "https://supabase.com/",
+                    "title": "Supabase",
                     "is_free": null,
-                    "description": "",
-                    "image": "https://icon.horse/icon/clerk.com"
+                    "description": "PostgreSQL数据库、文件存储、登录鉴权",
+                    "image": "https://icon.horse/icon/supabase.com"
                 },
                 {
                     "category": "登录鉴权",
                     "href": "https://github.com/lucia-auth/lucia",
-                    "title": "lucia",
+                    "title": "Lucia",
                     "is_free": null,
                     "description": "登录鉴权",
                     "image": "https://icon.horse/icon/github.com"
@@ -195,22 +199,22 @@
                     "href": "https://authjs.dev/getting-started/introduction",
                     "title": "Next-Auth v5",
                     "is_free": null,
-                    "description": "v5 配置和 v4 不同，请注意区分 [v5 Demo]",
+                    "description": "v5 配置和 v4 不同，请注意区分<br> [v5 Demo](https://github.com/AntonioErdeljac/next-auth-v5-advanced-guide)",
                     "image": "https://icon.horse/icon/authjs.dev"
+                },
+                {
+                    "category": "登录鉴权",
+                    "href": "https://github.com/logto-io/logto",
+                    "title": "Logto",
+                    "is_free": null,
+                    "description": "登录鉴权，有云端版和开源的私有化部署版",
+                    "image": "https://icon.horse/icon/github.com"
                 }
             ]
         },
         {
             "category": "支付",
             "data": [
-                {
-                    "category": "支付",
-                    "href": "https://www.lemonsqueezy.com/",
-                    "title": "Lemon Squeezy",
-                    "is_free": null,
-                    "description": "支持个人香港卡、虚拟卡，国内开发者首选",
-                    "image": "https://icon.horse/icon/www.lemonsqueezy.com"
-                },
                 {
                     "category": "支付",
                     "href": "https://stripe.com/",
@@ -263,7 +267,7 @@
                 },
                 {
                     "category": "网站分析",
-                    "href": "https://plausible.io",
+                    "href": " https://plausible.io",
                     "title": "Plausible",
                     "is_free": null,
                     "description": "",
@@ -276,6 +280,14 @@
                     "is_free": null,
                     "description": "开源可自部署",
                     "image": "https://icon.horse/icon/umami.is"
+                },
+                {
+                    "category": "网站分析",
+                    "href": "https://clarity.microsoft.com/",
+                    "title": "Clarity",
+                    "is_free": null,
+                    "description": "微软出的分析工具",
+                    "image": "https://icon.horse/icon/clarity.microsoft.com"
                 }
             ]
         },
@@ -297,14 +309,6 @@
             "data": [
                 {
                     "category": "部署与托管",
-                    "href": "https://vercel.com/dashboard",
-                    "title": "Vercel",
-                    "is_free": null,
-                    "description": "首选",
-                    "image": "https://icon.horse/icon/vercel.com"
-                },
-                {
-                    "category": "部署与托管",
                     "href": "https://aircode.io/",
                     "title": "Aircode",
                     "is_free": null,
@@ -316,7 +320,7 @@
                     "href": "https://zeabur.com/",
                     "title": "Zeabur",
                     "is_free": null,
-                    "description": "国内出海团队出品",
+                    "description": "国内出海团队出品，作者：[@MichaelYuhe](https://github.com/MichaelYuhe)",
                     "image": "https://icon.horse/icon/zeabur.com"
                 },
                 {
@@ -324,23 +328,15 @@
                     "href": "https://railway.app/",
                     "title": "Railway",
                     "is_free": null,
-                    "description": "",
+                    "description": "国内也可直接访问",
                     "image": "https://icon.horse/icon/railway.app"
-                },
-                {
-                    "category": "部署与托管",
-                    "href": "https://www.netlify.com/",
-                    "title": "Netlify",
-                    "is_free": null,
-                    "description": "",
-                    "image": "https://icon.horse/icon/www.netlify.com"
                 },
                 {
                     "category": "部署与托管",
                     "href": "https://pages.github.com/",
                     "title": "Github Pages",
-                    "is_free": null,
-                    "description": "",
+                    "is_free": true,
+                    "description": "免费",
                     "image": "https://icon.horse/icon/pages.github.com"
                 },
                 {
@@ -356,14 +352,6 @@
         {
             "category": "域名购买",
             "data": [
-                {
-                    "category": "域名购买",
-                    "href": "https://www.namesilo.com/",
-                    "title": "Namesilo",
-                    "is_free": null,
-                    "description": "自动屏蔽whois",
-                    "image": "https://icon.horse/icon/www.namesilo.com"
-                },
                 {
                     "category": "域名购买",
                     "href": "https://www.namecheap.com/",
@@ -382,35 +370,19 @@
                 },
                 {
                     "category": "域名购买",
-                    "href": "https://wanwang.aliyun.com/domain",
+                    "href": "https://cloudflare.com/",
+                    "title": "Cloudflare",
+                    "is_free": null,
+                    "description": "",
+                    "image": "https://icon.horse/icon/cloudflare.com"
+                },
+                {
+                    "category": "域名购买",
+                    "href": "https://wanwang.aliyun.com/domain) <br>  [腾讯云](https://cloud.tencent.com/act/pro/domain-sale) <br> [字节火山引擎](https://www.volcengine.com/product/domain-service",
                     "title": "阿里云",
                     "is_free": null,
                     "description": "国内平台，cn域名首选平台",
                     "image": "https://icon.horse/icon/wanwang.aliyun.com"
-                },
-                {
-                    "category": "域名购买",
-                    "href": "https://cloud.tencent.com/act/pro/domain-sale",
-                    "title": "腾讯云",
-                    "is_free": null,
-                    "description": "国内平台，cn域名首选平台",
-                    "image": "https://icon.horse/icon/cloud.tencent.com"
-                },
-                {
-                    "category": "域名购买",
-                    "href": "https://www.volcengine.com/product/domain-service",
-                    "title": "字节火山引擎",
-                    "is_free": null,
-                    "description": "国内平台，cn域名首选平台",
-                    "image": "https://icon.horse/icon/www.volcengine.com"
-                },
-                {
-                    "category": "域名购买",
-                    "href": "https://cloudflare.com/",
-                    "title": "Cloudflare",
-                    "is_free": null,
-                    "description": "良心平台，就是价格偏高",
-                    "image": "https://icon.horse/icon/cloudflare.com"
                 }
             ]
         },
@@ -424,6 +396,22 @@
                     "is_free": null,
                     "description": "",
                     "image": "https://icon.horse/icon/notion.so"
+                },
+                {
+                    "category": "文档管理",
+                    "href": "https://vitepress.vuejs.org/",
+                    "title": "VitePress",
+                    "is_free": null,
+                    "description": "Vite & Vue 驱动的静态站点生成器",
+                    "image": "https://icon.horse/icon/vitepress.vuejs.org"
+                },
+                {
+                    "category": "文档管理",
+                    "href": "https://starlight.astro.build/",
+                    "title": "Astro Starlight",
+                    "is_free": null,
+                    "description": "建立在 Astro 框架之上的全功能文档主题。<br>Astro 团队成员与中文文档翻译者：[@liruifengv](https://github.com/liruifengv/liruifengv)",
+                    "image": "https://icon.horse/icon/starlight.astro.build"
                 }
             ]
         },
@@ -465,7 +453,7 @@
                 {
                     "category": "logo",
                     "href": "https://www.bitbug.net/",
-                    "title": "比特虫",
+                    "title": "big bug",
                     "is_free": null,
                     "description": "PNG/JPG 转 ico",
                     "image": "https://icon.horse/icon/www.bitbug.net"
@@ -498,6 +486,14 @@
                     "is_free": null,
                     "description": "",
                     "image": "https://icon.horse/icon/www.mingcute.com"
+                },
+                {
+                    "category": "图标库",
+                    "href": "https://iconify.design/",
+                    "title": "iconify",
+                    "is_free": null,
+                    "description": "",
+                    "image": "https://icon.horse/icon/iconify.design"
                 }
             ]
         },
@@ -548,6 +544,14 @@
                     "is_free": null,
                     "description": "",
                     "image": "https://icon.horse/icon/www.screen.studio"
+                },
+                {
+                    "category": "录屏",
+                    "href": "https://obsproject.com/",
+                    "title": "OBS Studio",
+                    "is_free": null,
+                    "description": "开源、windows、mac、linux",
+                    "image": "https://icon.horse/icon/obsproject.com"
                 }
             ]
         },
@@ -565,33 +569,44 @@
             ]
         },
         {
-            "category": "原型设计",
+            "category": "信息渠道",
             "data": [
                 {
-                    "category": "原型设计",
-                    "href": "https://v0.dev/",
-                    "title": "v0.dev",
-                    "is_free": true,
-                    "description": "Text to UI, 免费用户有 200 Credits / 每月",
-                    "image": "https://icon.horse/icon/v0.dev"
-                },
-                {
-                    "category": "原型设计",
-                    "href": "https://www.usegalileo.ai/",
-                    "title": "usegalileo",
-                    "is_free": true,
-                    "description": "Text to UI, 免费用户有 200 Credits",
-                    "image": "https://icon.horse/icon/www.usegalileo.ai"
-                },
-                {
-                    "category": "原型设计",
-                    "href": "https://github.com/Yuyz0112/vx.dev",
-                    "title": "vx.dev",
+                    "category": "信息渠道",
+                    "href": "https://www.producthunt.com/",
+                    "title": "Product Hunt",
                     "is_free": null,
-                    "description": "Text to UI, v0.dev的开源替代品",
-                    "image": "https://icon.horse/icon/github.com"
+                    "description": "新产品打榜聚集地",
+                    "image": "https://icon.horse/icon/www.producthunt.com"
+                },
+                {
+                    "category": "信息渠道",
+                    "href": "https://news.ycombinator.com/",
+                    "title": "Hacker News",
+                    "is_free": null,
+                    "description": "",
+                    "image": "https://icon.horse/icon/news.ycombinator.com"
+                },
+                {
+                    "category": "信息渠道",
+                    "href": "https://www.indiehackers.com/",
+                    "title": "Indie Hackers",
+                    "is_free": null,
+                    "description": "",
+                    "image": "https://icon.horse/icon/www.indiehackers.com"
+                },
+                {
+                    "category": "信息渠道",
+                    "href": "https://w2solo.com/",
+                    "title": "w2solo",
+                    "is_free": null,
+                    "description": "中文独立开发者社区",
+                    "image": "https://icon.horse/icon/w2solo.com"
                 }
             ]
         }
-    ]
+    ],
+    "category_num": 22,
+    "tools_num": 62,
+    "update_time": "2024-03-02 04:47:16"
 }

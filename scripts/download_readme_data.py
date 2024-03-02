@@ -4,15 +4,21 @@ import re
 import sys
 import base64
 sys.path.append('./')
-from scripts.utils import check_folder,decode_and_download_image, decoded_url, extract_domain, get_git_update_time, get_readme,save_json
+from scripts.utils import backup_json, check_folder,decode_and_download_image, decoded_url, extract_domain, get_git_update_time, get_readme,save_json
 
 # 目标网页URL
 repo_owner = "weijunext"
 repo_name = "indie-hacker-tools"
 
 save_image_path = './public/images/'
-save_json_path = './src/data/tools1.json'
+save_json_path = './src/data/tools-data.json'
+back_json_path = './src/data/backup'
 check_folder(save_image_path)
+check_folder(back_json_path)
+
+
+# 将数据进行备份
+backup_json(save_json_path, back_json_path)
 
 
 last_commit_time = get_git_update_time(repo_owner=repo_owner,repo_name=repo_name,path='README.md')

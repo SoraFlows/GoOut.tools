@@ -3,7 +3,7 @@ import { siteConfig } from "@/config/site"
 import {toolsData} from "@/data/tools-data"
 export async function GET() {
   const feed = new RSS({
-    title: siteConfig.name,
+    title: siteConfig.title,
     description: siteConfig.description,
     site_url: siteConfig.site, // 你的网站域名
     feed_url: siteConfig.feed_url, // 尽可能用绝对 URL

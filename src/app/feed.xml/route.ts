@@ -1,6 +1,6 @@
 import RSS from "rss"
 import { siteConfig } from "@/config/site"
-import {toolsData} from "@/data/toolsData"
+import {toolsData} from "@/data/tools-data"
 export async function GET() {
   const feed = new RSS({
     title: siteConfig.name,

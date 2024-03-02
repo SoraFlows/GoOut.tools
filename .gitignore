@@ -39,3 +39,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 scripts/__pycache__/utils.cpython-311.pyc
+
+.idea

@@ -25,7 +25,7 @@ export const Header: React.FC<HeaderProps> = ({
         <header className="sticky top-0 z-40 w-full bg-gray-50 dark:border-slate-50/[0.06] lg:border-b lg:border-slate-900/10">
             <div className='flex items-center'>
                 <div>
-                    <button onClick={toggleSidebar} className="z-50 m-5 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors" aria-label={isSidebarOpen ? "关闭侧边栏" : "打开侧边栏"}>
+                    <button onClick={toggleSidebar} className="z-50 m-5 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
                         {isSidebarOpen ? <FaTimes /> : <FaBars />}
                     </button>
                 </div>

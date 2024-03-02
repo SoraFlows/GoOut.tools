@@ -69,18 +69,19 @@ export default function Home() {
 
         {/* 传递 categories, activeCategory 和 onCategoryClick 给 Sidebar */}
         <div className="container relative ma-auto min-h-screen w-full px-0">
-          <div className="flex">
+          <div className="flex justify-center">
             {/* 根据isSidebarOpen状态来切换Sidebar的显示 */}
-            {isSidebarOpen && (
-              <div className="fixed inset-0 z-30 bg-black bg-opacity-50" onClick={toggleSidebar}></div>
-            )}
-            <div className={`flex z-40 ${isSidebarOpen ?  'block' : 'hidden'} h-full w-[16rem] transition-all duration-300 ease-in-out sm:block bg-gray-50 shadow-md`}>
+            {/*{isSidebarOpen && (*/}
+            {/*  <div className="fixed inset-0 z-30 bg-black bg-opacity-50" onClick={toggleSidebar}></div>*/}
+            {/*)}*/}
+            {/*<div className={`flex z-40 ${isSidebarOpen ?  'block' : 'hidden'} h-full w-[16rem] transition-all duration-300 ease-in-out sm:block bg-gray-50 shadow-md`}>*/}
               <Sidebar
               categories={toolsData}
               activeCategory={activeCategory}
               onCategoryClick={handleCategoryClick}
+              isSidebarOpen={isSidebarOpen}
               />
-            </div>
+            {/*</div>*/}
 
             {/* <div className="flex z-20 hidden min-h-screen w-{16rem} transition-all duration-300 ease-in-out sm:block">
               <Sidebar
@@ -90,7 +91,7 @@ export default function Home() {
               />
             </div> */}
 
-            <div className={`ml-[16rem] transition-margin
+            <div className={`m-auto transition-margin
               ${isSidebarOpen ? 'ml-[16rem]' : 'ml-0'} 
               transition-all duration-300 ease-in-out`}>
               <Header toggleSidebar={toggleSidebar} isSidebarOpen={isSidebarOpen}></Header>

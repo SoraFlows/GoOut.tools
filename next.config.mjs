@@ -5,6 +5,12 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
+                hostname: "merakiui.com",
+                port: '',
+                pathname: '/**/*',
+            },
+            {
+                protocol: 'https',
                 hostname: "icon.horse",
                 port: '',
                 pathname: '/**/*',

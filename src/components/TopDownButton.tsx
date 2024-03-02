@@ -29,19 +29,21 @@ const TopDownButton = () => {
 
   return (
     <>
+    
       {(showButton === 'top' || showButton === 'both') && (
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="fixed bottom-[10%] right-0 z-50 m-5 sm:m-0"
+          className="fixed bottom-[10%] right-0 z-50 m-5 sm:m-0 py-3"
           aria-label="Scroll to top"
         >
           <FaCircleChevronUp size="3em"/>
         </button>
       )}
+
       {(showButton === 'bottom' || showButton === 'both') && (
         <button
           onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}
-          className="fixed bottom-[5%] right-0 z-50 m-5 sm:m-0"
+          className="fixed bottom-[5%] right-0 z-50 m-5 sm:m-0 "
           aria-label="Scroll to bottom"
         >
           <FaCircleChevronDown size="3em"/>

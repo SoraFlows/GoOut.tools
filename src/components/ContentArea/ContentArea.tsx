@@ -8,7 +8,7 @@ const ContentArea: React.FC<{
 }> = ({ categories, categoryRefs }) => {
     return (
         <>
-        <div className="bg-white shadow-lg rounded-lg p-6 max-w-4xl mx-auto mt-10">
+        <div className="mx-auto w-full bg-white shadow-lg rounded-lg p-6 max-w-4xl mx-auto mt-10">
             <h2 className='mb-2 text-2xl font-bold text-primary/80 sm:text-3xl text-center'>
             Go Out出海第一步，搞定工具库
             </h2>
@@ -26,6 +26,7 @@ const ContentArea: React.FC<{
         </div>
         <div className='w-full pb-96 pt-4'>
             <div id="main" className='mx-auto w-full px-4 md:px-6 lg:max-w-screen-lg xl:max-w-screen-xl'>
+                
                 {categories.map((categoryData) => (
                 // 使用 '!' 断言 categoryRefs.current 非空
                 <div ref={categoryRefs.current![categoryData.category]} key={categoryData.category} className='mb-12'> 
@@ -33,7 +34,6 @@ const ContentArea: React.FC<{
                 </div>
             ))}
             </div>
-    
         </div>
         </>
     );

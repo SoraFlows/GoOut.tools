@@ -1,6 +1,9 @@
+"use client"
 import React from 'react';
 import { CategoryData } from '@/types/ToolData';
 import CategoryBlock from '@/components/ContentArea/CategoryBlock';
+import Contact from '@/components/Contact';
+import {toolsInfo } from '@/data/tools-data';
 
 const ContentArea: React.FC<{
     categories: CategoryData[];
@@ -15,12 +18,21 @@ const ContentArea: React.FC<{
             <h3 className="mb-2 text-1xl font-bold text-primary/80 sm:text-2xl text-left px-10 py-5">
             独立开发者出海技术栈和工具, 收集的一些有用的出海工具和资源，可以帮助你更好地了解和进入海外市场。
                 </h3>
-                <h3>挑选标准</h3>
+                <h3 className='font-bold py-1'>挑选标准</h3>
                 <h4 className="mb-2 py-3 text-md text-gray-700 px-5">
                     <ul className="list-disc pl-5">
                         <li>帮助独立开发者提升开发效率</li>
                         <li>帮助独立开发者降低成本</li>
                         <li>市场上足够流行</li>
+                    </ul>
+                </h4>
+                <h3 className='font-bold py-1'>工具库信息</h3>
+                <h4 className="mb-2 py-3 text-md text-gray-700 px-5">
+                    <ul className="list-disc pl-5">
+                        <li>共收集了
+                            <span className='font-bold p-1'>{toolsInfo.categoryNumber}</span>个类别，
+                            <span className='font-bold p-1'>{toolsInfo.toolsNumber}</span>个工具</li>
+                        <li>最后更新时间：{toolsInfo.lastUpdateTime}</li>
                     </ul>
                 </h4>
         </div>
@@ -33,6 +45,7 @@ const ContentArea: React.FC<{
                     <CategoryBlock categoryData={categoryData} />
                 </div>
             ))}
+            <Contact></Contact>
             </div>
         </div>
         </>

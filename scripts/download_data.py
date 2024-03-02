@@ -25,6 +25,8 @@ structured_data = []
 divs_with_numeric_id = soup.find_all('div', id=re.compile(r'^\d+$'))
 
 # 查找所有<a>标签并提取href属性
+category_num = 0
+tool_num = 0
 for div in divs_with_numeric_id:
     # 对于每个找到的div，提取<a>标签
     category = div.find('h2').text if div.find('h2') else '无标题'
@@ -54,16 +56,18 @@ for div in divs_with_numeric_id:
             'image': image_src
         }
         category_data.append(data)
+        tool_num+=1
     structured_data.append({
                             "category": category,
                             "data": category_data
                             })
-
+    category_num+=1
 save_data = {
     'tools': structured_data
 }
 save_json(save_data, save_json_path)
- 
+print(f"一共有{category_num}类别")
+print(f"一共有{tool_num}个工具")
 
 # # 将数据写入到excel
 # import pandas as pd

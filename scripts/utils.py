@@ -27,7 +27,39 @@ def decoded_url(url:str)->str:
     - url: URL地址
     """
     return unquote(url)
-                   
+
+def get_git_commit(repo_owner:str, repo_name:str,path:str):
+    """
+    # 构建API URL来获取文件的提交历史数据
+    """
+    url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/commits?path={path}"
+    # 发送请求
+    response = requests.get(url)
+    data = response.json()
+    return data
+
+def get_git_update_time(repo_owner:str, repo_name:str,path:str):
+    from datetime import datetime
+    # 获取最新的提交信息
+    commit_data = get_git_commit(repo_owner=repo_owner, repo_name=repo_name,path=path)
+    latest_commit = commit_data[0]
+    commit_date = latest_commit['commit']['committer']['date']
+    # 转换为更友好的格式
+    formatted_date = datetime.strptime(commit_date, '%Y-%m-%dT%H:%M:%SZ').strftime('%Y-%m-%d %H:%M:%S')
+    print("README文件的最后更新时间是:", formatted_date)
+    return formatted_date
+
+def get_readme(repo_owner:str, repo_name:str)->str:
+    download_url_1 = f"https://api.github.com/repos/{repo_owner}/{repo_name}/contents/"
+    response1 = requests.get(download_url_1)
+    contents = response1.json()
+    for content in contents:
+        if content["type"] == "file" and content["name"].lower() == "readme.md":
+            download_url_2 = content["download_url"]
+            response2 = requests.get(download_url_2)
+            markdown_content = response2.text
+            return markdown_content
+    return None
 
 def decode_and_download_image(encoded_url:str, save_path:str):
     """

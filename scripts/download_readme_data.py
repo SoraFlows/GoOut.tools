@@ -29,10 +29,13 @@ sections = re.split(r'\n(## |### )', markdown_content)
 
 
 def get_block_info(content):
-    title_pattern = r'^(.*?)\n\n\|'
+    # title_pattern = r'^(.*?)\n\n\|'
+    title_pattern = r'^\s*(.*?)\s*\n\n\|'
     title_match = re.search(title_pattern, content, re.MULTILINE)
     category = title_match.group(1) if title_match else None
     # 正则表达式，用于提取表格行
+    # rows_pattern = r'\|\s*\[(.*?)\]\((.*?)\)\s*\|\s*(.*?)\s*\|'
+    # 更新表格行匹配正则表达式，更灵活地处理空格和其他可能的格式问题
     rows_pattern = r'\|\s*\[(.*?)\]\((.*?)\)\s*\|\s*(.*?)\s*\|'
     rows_matches = re.findall(rows_pattern, content)
 

@@ -47,7 +47,7 @@ const ContentArea: React.FC<{
                             GoOut.tools 网页界面:{siteConfig.links.github_web}
                         </a>
                     </li>
-                    <li className='py-1'>
+                    {/* <li className='py-1'>
                         <a href={siteConfig.links.github_collect}
                             target="_blank"
                             rel="noopener noreferrer"
@@ -55,7 +55,7 @@ const ContentArea: React.FC<{
                         >
                             出海去 仓库收集地址:{siteConfig.links.github_collect}
                         </a>
-                    </li>
+                    </li> */}
                 </h4>
             </div>
             <div className='w-full pb-96 pt-4'>

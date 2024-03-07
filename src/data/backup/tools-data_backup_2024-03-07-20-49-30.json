@@ -136,7 +136,24 @@
         },
         {
             "category": "样式与UI库",
-            "data": []
+            "data": [
+                {
+                    "category": "样式与UI库",
+                    "href": "https://www.radix-ui.com/",
+                    "title": "radix-ui",
+                    "is_free": null,
+                    "description": "提供无样式、可访问的低级组件库，可用于构建复杂的、可定制的设计系统和 web 应用程序",
+                    "image": "https://icon.horse/icon/www.radix-ui.com"
+                },
+                {
+                    "category": "样式与UI库",
+                    "href": "https://www.framer.com/motion/",
+                    "title": "Framer Motion",
+                    "is_free": null,
+                    "description": "提供了一组高级动画和交互组件，适合快速构建复杂动画和交互效果",
+                    "image": "https://icon.horse/icon/www.framer.com"
+                }
+            ]
         },
         {
             "category": "原型设计",
@@ -498,6 +515,19 @@
             ]
         },
         {
+            "category": "图片视频素材",
+            "data": [
+                {
+                    "category": "图片视频素材",
+                    "href": "https://vectorove.com/",
+                    "title": "vectorove",
+                    "is_free": true,
+                    "description": "完全免费，风格统一的插画库，支持预定义颜色以及png和svg格式导出",
+                    "image": "https://icon.horse/icon/vectorove.com"
+                }
+            ]
+        },
+        {
             "category": "图片视频处理工具",
             "data": [
                 {
@@ -606,7 +636,7 @@
             ]
         }
     ],
-    "category_num": 22,
-    "tools_num": 62,
-    "update_time": "2024-03-02 04:47:16"
+    "category_num": 23,
+    "tools_num": 65,
+    "update_time": "2024-03-04 02:53:33"
 }

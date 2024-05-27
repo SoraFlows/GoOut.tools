@@ -168,6 +168,14 @@
                 },
                 {
                     "category": "原型设计",
+                    "href": "https://framer.com/",
+                    "title": "https://framer.com/",
+                    "is_free": null,
+                    "description": "一个设计你的网站的网站，framer-motion就是他们的",
+                    "image": "https://icon.horse/icon/framer.com"
+                },
+                {
+                    "category": "原型设计",
                     "href": "https://www.usegalileo.ai/",
                     "title": "usegalileo",
                     "is_free": true,
@@ -309,15 +317,23 @@
             ]
         },
         {
-            "category": "在线客服",
+            "category": "在线客服和反馈服务",
             "data": [
                 {
-                    "category": "在线客服",
+                    "category": "在线客服和反馈服务",
                     "href": "https://tawk.to/",
                     "title": "Tawk",
                     "is_free": null,
-                    "description": "中国地区可注册",
+                    "description": "在线客服，中国地区可注册",
                     "image": "https://icon.horse/icon/tawk.to"
+                },
+                {
+                    "category": "在线客服和反馈服务",
+                    "href": "https://txc.qq.com/",
+                    "title": "腾讯兔小巢",
+                    "is_free": null,
+                    "description": "产品反馈平台，面向国内提供服务可使用",
+                    "image": "https://icon.horse/icon/txc.qq.com"
                 }
             ]
         },
@@ -450,6 +466,14 @@
                     "is_free": null,
                     "description": "logo 设计",
                     "image": "https://icon.horse/icon/icon.ray.so"
+                },
+                {
+                    "category": "logo",
+                    "href": "https://logodiffusion.com/",
+                    "title": "https://logodiffusion.com/",
+                    "is_free": null,
+                    "description": "生成你的logo",
+                    "image": "https://icon.horse/icon/logodiffusion.com"
                 },
                 {
                     "category": "logo",
@@ -634,9 +658,46 @@
                     "image": "https://icon.horse/icon/w2solo.com"
                 }
             ]
+        },
+        {
+            "category": "产品发布提交",
+            "data": [
+                {
+                    "category": "产品发布提交",
+                    "href": "https://www.producthunt.com/",
+                    "title": "Product Hunt",
+                    "is_free": null,
+                    "description": "新产品主打阵地，发布后其他导航站回来爬取，首选发布地",
+                    "image": "https://icon.horse/icon/www.producthunt.com"
+                },
+                {
+                    "category": "产品发布提交",
+                    "href": "https://news.ycombinator.com/",
+                    "title": "Hacker News",
+                    "is_free": null,
+                    "description": "发布注意要写软文，否则容易被删帖",
+                    "image": "https://icon.horse/icon/news.ycombinator.com"
+                },
+                {
+                    "category": "产品发布提交",
+                    "href": "https://poweredbyai.app/",
+                    "title": "PoweredByAI",
+                    "is_free": true,
+                    "description": "免费提交产品",
+                    "image": "https://icon.horse/icon/poweredbyai.app"
+                },
+                {
+                    "category": "产品发布提交",
+                    "href": "https://www.pinterest.com",
+                    "title": "Pinterest",
+                    "is_free": true,
+                    "description": "发布视频频道也会被Google收录（免费）",
+                    "image": "https://icon.horse/icon/www.pinterest.com"
+                }
+            ]
         }
     ],
-    "category_num": 23,
-    "tools_num": 65,
-    "update_time": "2024-03-04 02:53:33"
+    "category_num": 24,
+    "tools_num": 72,
+    "update_time": "2024-03-06 02:35:45"
 }

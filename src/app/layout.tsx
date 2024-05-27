@@ -20,29 +20,36 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      {/* Yandex验证 */}
-      <meta name="yandex-verification" content={siteConfig.yandexVerifi} />
-      {/* 百度验证 */}
-      <meta name="baidu-site-verification" content={siteConfig.baiduVerifi} />
-      <Script
-        src={`https://www.googletagmanager.com/ns.html?id=${siteConfig.googleId}`}
-        strategy='afterInteractive'
-      />
-      {/* 直接在页面中执行的脚本 */}
-      <Script
-        id='google-analytics'
-        strategy='afterInteractive'>
-        {`
+        {/* Yandex验证 */}
+        <meta name="yandex-verification" content={siteConfig.yandexVerifi} />
+        {/* 百度验证 */}
+        <meta name="baidu-site-verification" content={siteConfig.baiduVerifi} />
+        <Script
+          src={`https://www.googletagmanager.com/ns.html?id=${siteConfig.googleId}`}
+          strategy='afterInteractive'
+        />
+        {/* 直接在页面中执行的脚本 */}
+        <Script
+          id='google-analytics'
+          strategy='afterInteractive'>
+          {`
                   window.dataLayer = window.dataLayer || [];
                   function gtag(){dataLayer.push(arguments);}
                   gtag('js', new Date());
                   gtag('config', '${siteConfig.googleId}');
                   `}
-      </Script>
-      <Script
-        src={`https://hm.baidu.com/hm.js?${siteConfig.baiduId}`}
-        strategy='afterInteractive'
-      />
+        </Script>
+        <Script
+          src={`https://hm.baidu.com/hm.js?${siteConfig.baiduId}`}
+          strategy='afterInteractive'
+        />
+        {/* Umami analytics */}
+        <Script
+          src='https://umami.youmiai.ai/script.js'
+          async
+          data-website-id='2fe33cbf-d282-4695-997a-9cbe9e591e66'
+          strategy='afterInteractive'
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>

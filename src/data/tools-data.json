@@ -30,6 +30,27 @@
             ]
         },
         {
+            "category": "站长工具",
+            "data": [
+                {
+                    "category": "站长工具",
+                    "href": "https://tool.chinaz.com/speedtest",
+                    "title": "网站国内测速",
+                    "is_free": true,
+                    "description": "域名/ip 国内区域测速",
+                    "image": "https://icon.horse/icon/tool.chinaz.com"
+                },
+                {
+                    "category": "站长工具",
+                    "href": "https://tool.chinaz.com/speedworld",
+                    "title": "网站国际测速",
+                    "is_free": true,
+                    "description": "域名/ip 国际区域测速",
+                    "image": "https://icon.horse/icon/tool.chinaz.com"
+                }
+            ]
+        },
+        {
             "category": "Chrome 插件开发模板",
             "data": [
                 {
@@ -47,6 +68,27 @@
                     "is_free": null,
                     "description": "支持 Vue、Svelte 等多种前端框架",
                     "image": "https://icon.horse/icon/wxt.dev"
+                }
+            ]
+        },
+        {
+            "category": "Landing Page 模板",
+            "data": [
+                {
+                    "category": "Landing Page 模板",
+                    "href": "https://tailsc.com/",
+                    "title": "tailsc",
+                    "is_free": null,
+                    "description": "提供了很多组件，开发者：[推特@zissy_w](https://twitter.com/zissy_w)、[Github@ZissyW](https://github.com/ZissyW)",
+                    "image": "https://icon.horse/icon/tailsc.com"
+                },
+                {
+                    "category": "Landing Page 模板",
+                    "href": "https://github.com/weijunext/landing-page-boilerplate",
+                    "title": "landing-page-boilerplate",
+                    "is_free": true,
+                    "description": "开源、免费、0设计资源的模板",
+                    "image": "https://icon.horse/icon/github.com"
                 }
             ]
         },
@@ -105,19 +147,19 @@
                 },
                 {
                     "category": "数据库",
-                    "href": "https://planetscale.com/pricing",
-                    "title": "planetscale",
-                    "is_free": true,
-                    "description": "MySQL数据库，免费版额度非常慷慨，5GB存储  10亿次读/月  1000万次写/月",
-                    "image": "https://icon.horse/icon/planetscale.com"
-                },
-                {
-                    "category": "数据库",
                     "href": "https://realm.io/",
                     "title": "Realm",
                     "is_free": null,
                     "description": "SQLite 的快速、可扩展的替代方案",
                     "image": "https://icon.horse/icon/realm.io"
+                },
+                {
+                    "category": "数据库",
+                    "href": "https://tidbcloud.com/",
+                    "title": "TiDB Cloud",
+                    "is_free": true,
+                    "description": "兼容 Mysql 的 TiDB serverless，支持高可用，5G以内免费",
+                    "image": "https://icon.horse/icon/tidbcloud.com"
                 }
             ]
         },
@@ -126,11 +168,35 @@
             "data": [
                 {
                     "category": "ORM",
+                    "href": "https://www.prisma.io/",
+                    "title": "Prisma",
+                    "is_free": true,
+                    "description": "Schema 语法定义数据模型,所有模型定义都要写在prisma.schema文件中",
+                    "image": "https://icon.horse/icon/www.prisma.io"
+                },
+                {
+                    "category": "ORM",
+                    "href": "https://orm.drizzle.team/",
+                    "title": "Drizzle",
+                    "is_free": true,
+                    "description": "SQL数据库ORM, API 大量使用了链式调用，比较符合 JavaScript 开发者的习惯，另外对 Serverless 数据库支持的也比较好",
+                    "image": "https://icon.horse/icon/orm.drizzle.team"
+                },
+                {
+                    "category": "ORM",
                     "href": "https://github.com/typeorm/typeorm",
                     "title": "TypeORM",
-                    "is_free": null,
-                    "description": "",
+                    "is_free": true,
+                    "description": "社区比较活跃的 ORM 库，应该也是当前用户最多的, 对 TypeScript 的支持比较好，并且大量使用了装饰器语法，和 Nest.js 搭配使用比较舒服",
                     "image": "https://icon.horse/icon/github.com"
+                },
+                {
+                    "category": "ORM",
+                    "href": "https://sequelize.org/",
+                    "title": "Sequelize",
+                    "is_free": true,
+                    "description": "最老牌的 Node.js ORM 库,支持 Oracle、Postgres、MySQL、SQLite 等多种数据库，具有完整的事务、关系、懒加载相关能力",
+                    "image": "https://icon.horse/icon/sequelize.org"
                 }
             ]
         },
@@ -142,7 +208,7 @@
                     "href": "https://www.radix-ui.com/",
                     "title": "radix-ui",
                     "is_free": null,
-                    "description": "提供无样式、可访问的低级组件库，可用于构建复杂的、可定制的设计系统和 web 应用程序",
+                    "description": "",
                     "image": "https://icon.horse/icon/www.radix-ui.com"
                 },
                 {
@@ -150,8 +216,16 @@
                     "href": "https://www.framer.com/motion/",
                     "title": "Framer Motion",
                     "is_free": null,
-                    "description": "提供了一组高级动画和交互组件，适合快速构建复杂动画和交互效果",
+                    "description": "动效库",
                     "image": "https://icon.horse/icon/www.framer.com"
+                },
+                {
+                    "category": "样式与UI库",
+                    "href": "https://responsiveviewer.org/",
+                    "title": "Responsive Viewer",
+                    "is_free": null,
+                    "description": "chrome 插件。可以一键验证多端响应式布局状态",
+                    "image": "https://icon.horse/icon/responsiveviewer.org"
                 }
             ]
         },
@@ -165,6 +239,14 @@
                     "is_free": true,
                     "description": "Text to UI, 免费用户有 200 Credits / 每月",
                     "image": "https://icon.horse/icon/v0.dev"
+                },
+                {
+                    "category": "原型设计",
+                    "href": "https://github.com/Yuyz0112/vx.dev",
+                    "title": "vx.dev",
+                    "is_free": null,
+                    "description": "Text to UI, v0.dev的开源替代品",
+                    "image": "https://icon.horse/icon/github.com"
                 },
                 {
                     "category": "原型设计",
@@ -184,11 +266,11 @@
                 },
                 {
                     "category": "原型设计",
-                    "href": "https://github.com/Yuyz0112/vx.dev",
-                    "title": "vx.dev",
+                    "href": "https://saaslandingpage.com/) <br/> [framer landing page](https://www.framer.com/templates/categories/landing-page/",
+                    "title": "saaslandingpage",
                     "is_free": null,
-                    "description": "Text to UI, v0.dev的开源替代品",
-                    "image": "https://icon.horse/icon/github.com"
+                    "description": "landing page / 落地页",
+                    "image": "https://icon.horse/icon/saaslandingpage.com"
                 }
             ]
         },
@@ -224,7 +306,7 @@
                     "href": "https://authjs.dev/getting-started/introduction",
                     "title": "Next-Auth v5",
                     "is_free": null,
-                    "description": "v5 配置和 v4 不同，请注意区分<br> [v5 Demo](https://github.com/AntonioErdeljac/next-auth-v5-advanced-guide)",
+                    "description": "v5 配置和 v4 不同，请注意区分<br> [v5 Demo](https://github.com/hafizn07/next-auth-v5-advanced-guide-2024)",
                     "image": "https://icon.horse/icon/authjs.dev"
                 },
                 {
@@ -379,6 +461,14 @@
                     "is_free": null,
                     "description": "",
                     "image": "https://icon.horse/icon/developers.cloudflare.com"
+                },
+                {
+                    "category": "部署与托管",
+                    "href": "https://www.aliyun.com/minisite/goods?userCode=hrvtosj1) <br>  [腾讯云服务器](https://curl.qcloud.com/lsJFImqi",
+                    "title": "阿里云服务器",
+                    "is_free": null,
+                    "description": "国内云，经常有优惠",
+                    "image": "https://icon.horse/icon/www.aliyun.com"
                 }
             ]
         },
@@ -440,6 +530,14 @@
                 },
                 {
                     "category": "文档管理",
+                    "href": "https://github.com/zhangdi168/VitePressSimple/",
+                    "title": "VitePressSimple",
+                    "is_free": null,
+                    "description": "VitePress可视化工具",
+                    "image": "https://icon.horse/icon/github.com"
+                },
+                {
+                    "category": "文档管理",
                     "href": "https://starlight.astro.build/",
                     "title": "Astro Starlight",
                     "is_free": null,
@@ -470,7 +568,7 @@
                 {
                     "category": "logo",
                     "href": "https://logodiffusion.com/",
-                    "title": "https://logodiffusion.com/",
+                    "title": "logodiffusion",
                     "is_free": null,
                     "description": "生成你的logo",
                     "image": "https://icon.horse/icon/logodiffusion.com"
@@ -494,7 +592,7 @@
                 {
                     "category": "logo",
                     "href": "https://www.bitbug.net/",
-                    "title": "big bug",
+                    "title": "bit bug",
                     "is_free": null,
                     "description": "PNG/JPG 转 ico",
                     "image": "https://icon.horse/icon/www.bitbug.net"
@@ -656,6 +754,14 @@
                     "is_free": null,
                     "description": "中文独立开发者社区",
                     "image": "https://icon.horse/icon/w2solo.com"
+                },
+                {
+                    "category": "信息渠道",
+                    "href": "https://chuhaituan.com",
+                    "title": "出海团",
+                    "is_free": null,
+                    "description": "专注于分享优秀出海产品的拼团平台",
+                    "image": "https://icon.horse/icon/chuhaituan.com"
                 }
             ]
         },
@@ -697,7 +803,7 @@
             ]
         }
     ],
-    "category_num": 24,
-    "tools_num": 72,
-    "update_time": "2024-03-06 02:35:45"
+    "category_num": 25,
+    "tools_num": 79,
+    "update_time": "2024-05-04 07:40:56"
 }

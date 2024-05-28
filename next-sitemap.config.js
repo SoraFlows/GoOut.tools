@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: "https://goout.tools",
+    siteUrl: 'https://goout.tools',
     changefreq: 'daily',
     priority: 0.7,
     sitemapSize: 14000,

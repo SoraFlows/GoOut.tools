@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "next dev",
         "dev:host": "next dev -H 0.0.0.0",
-        "test": "mocha --reporter mochawesome",
+        "test": "mocha",
         "build": "next build",
         "start": "next start",
         "prettier:check": "prettier . --check",
